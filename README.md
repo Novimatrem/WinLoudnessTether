@@ -6,12 +6,16 @@ This script combines my prior warning-sound-if-volume-is-x-percent, limit-audio-
 
 # Running
 
-PowerShell scripts are disabled by default on Windows. To enable them, run the following commands in an elevated (Run as Admin) PowerShell terminal:
+PowerShell scripts are disabled by default on Windows. To enable them, run the following commands in an elevated (Run as Admin) PowerShell terminal, in this exact order:
 
-``
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-``
+First
 
 ``
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+``
+
+Second
+
+``
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ``
