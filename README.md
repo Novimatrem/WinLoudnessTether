@@ -1,25 +1,5 @@
 # WinLoudnessTether
 
-A Windows, PowerShell version of several of my previous scripts, combined into one.
+A Windows, Python version my prior limit-audio-max-volume-to-x-percent. But worse because of Windows OS limitations. Still just about does the job, though.
 
-This script combines my prior warning-sound-if-volume-is-x-percent, limit-audio-max-volume-to-x-percent, & hearing-protector-x-megapack.
-
-# Running
-
-PowerShell scripts are disabled by default on Windows. To enable them, run the following commands in an elevated (Run as Admin) PowerShell terminal, in this exact order:
-
-First
-
-``
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-``
-
-(then type the letter a and press Enter to agree Yes to All)
-
-Second
-
-``
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-``
-
-(then type the letter a and press Enter to agree Yes to All)
+The Python code in this repository was vibe coded by myself and Microsoft Copilot AI. This is the first time I ever tried such a thing. If this is repulsive to you, I understand, simply do not use or engage with the script. The reason I resorted to such a method for the first time in my life, is that it wasn't my damn fucking fault that I had to migrate to Windows, and I had absolutely no desire to engage with the operating system beyond where I was forced to, so putting more effort than was required out of me to make this essential component of my setup work wasn't going to happen. I'm not putting passion into something for Windows, by Microsoft. I vibe coded this out of a disrespect for Windows, Microsoft, and software designed to run on it exclusively. I wasn't going to put my own passion and effort into something for this operating system that I wish to die in a fire. Windows sucks ass. Switch to Linux, script things in Bash, have a better life than the shitty circumstance I've been forced into.
