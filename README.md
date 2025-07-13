@@ -14,8 +14,12 @@ First
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ``
 
+(then type the letter a and press Enter to agree Yes to All)
+
 Second
 
 ``
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ``
+
+(then type the letter a and press Enter to agree Yes to All)
